@@ -3,11 +3,10 @@
 echo "Deploying Docker container to EC2..."
 
 # Stop any existing containers
-docker stop react-app || true
-docker rm react-app || true
+docker stop test3 || true
+docker rm test3 || true
 
 # Run the container with the latest image
-docker run -d --name react-app -p 8080:80 your-dockerhub-username/prod:latest
+docker run -d -p 8087:8080 --name testpp test
 
 echo "Deployment complete!"
-
