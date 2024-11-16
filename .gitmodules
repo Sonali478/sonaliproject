@@ -1,0 +1,6 @@
+[submodule "devops-buid"]
+	path = devops-buid
+	url = https://github.com/sriram-R-krishnan/devops-build
+[submodule "devops-build"]
+	path = devops-build
+	url = https://github.com/sriram-R-krishnan/devops-build
